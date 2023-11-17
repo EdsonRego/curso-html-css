@@ -1,13 +1,14 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+    background-color: #ddd;
     margin: 0;
 }
 
-body{
-    background-color: #bbb;
-}
-
-.container-dos-blocos{
+.container-dos-blocos {
+    width: 100%;
     max-width: 960px;
     margin: 0 auto;
     display: flex;
@@ -18,27 +19,11 @@ body{
     width: 280px;
     height: 200px;
     margin: 20px;
+    border-radius: 20px;
+    padding: 10px;
     background-color: #fff;
 }
 
 .bloco:hover {
     border: 2px solid red;
 }
-
-/*
-.container-dos-blocos{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
-}
-
-.bloco {
-    width: 90px;
-    height: 200px;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-*/
