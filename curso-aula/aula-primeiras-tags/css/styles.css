@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+
+.cor-laranja {
+    color: orange;
+}
+
+.cor-laranja :hover {
+    color: rgb(213, 190, 145);
+}
+
+h1,
+h2 {
+    color: blue;
+}
+
+h1:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+p {
+    color: green;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 5px solid red;
+    margin: 10px 40px 20px 30px;
+    
+    
+}
+
+/*
+*{
+    font-size: 10px;
+}
+
+ul{
+    padding: 0;
+}
+
+#titles{
+    background-color: aqua;
+}
+*/
